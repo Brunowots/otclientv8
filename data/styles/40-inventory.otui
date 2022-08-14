@@ -212,7 +212,7 @@ InventoryWindow < MiniWindow
         id: conditionPanel
         layout:
           type: horizontalBox
-        height: 22
+        height: 12
         padding: 2
         anchors.top: slot8.bottom
         anchors.left: slot6.left
