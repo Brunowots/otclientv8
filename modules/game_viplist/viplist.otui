@@ -14,10 +14,11 @@ MiniWindow
   id: vipWindow
   !text: tr('VIP List')
   height: 100
-  icon: /images/topbuttons/viplist
+  icon: /images/topbuttons/window_icons.png
   @onClose: modules.game_viplist.onMiniWindowClose()
   &save: true
   &autoOpen: false
+  icon-clip: 24 0 12 12
 
   MiniWindowContents
     layout: verticalBox

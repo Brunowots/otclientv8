@@ -40,10 +40,11 @@ MiniWindow
   id: battleWindow
   !text: tr('Battle')
   height: 166
-  icon: /images/topbuttons/battle
+  icon: /images/topbuttons/window_icons
   @onClose: modules.game_battle.onMiniWindowClose()
   &save: true
   &autoOpen: false
+  icon-clip: 12 0 12 12
 
   Panel
     id: filterPanel
