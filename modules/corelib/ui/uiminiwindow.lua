@@ -228,6 +228,26 @@ function UIMiniWindow:onDragEnter(mousePos)
 end
 
 function UIMiniWindow:onDragLeave(droppedWidget, mousePos)
+  local children = rootWidget:recursiveGetChildrenByMarginPos(mousePos)
+  local dropInPanel = 0
+  for i=1,#children do
+    local child = children[i]
+    if child:getId() == 'gameLeftPanel' or child:getId() == 'gameRightPanel' then
+      dropInPanel = 1
+    end
+  end
+  if dropInPanel == 0 then
+    tmpp = self
+    if(modules.game_interface.getLeftPanel():isVisible()) then
+     if modules.game_interface.getRootPanel():getWidth() / 2 < mousePos.x then
+       addEvent(function() tmpp:setParent(modules.game_interface.getRightPanel()) end)
+     else
+       addEvent(function() tmpp:setParent(modules.game_interface.getLeftPanel()) end)
+     end
+    else
+      addEvent(function() tmpp:setParent(modules.game_interface.getRightPanel()) end)
+    end
+  end
   if self.movedWidget then
     self.setMovedChildMargin(self.movedOldMargin or 0)
     self.movedWidget = nil
