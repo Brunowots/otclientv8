@@ -52,7 +52,7 @@ ConsoleTabBarPanel < MoveableTabBarPanel
     pixels-scroll: true
 
 ConsoleTabBarButton < MoveableTabBarButton
-  height: 28
+  height: 24
   padding: 15
 
 ConsolePanel < Panel
