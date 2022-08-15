@@ -1,0 +1,61 @@
+MainWindow
+  id: foodeaterMain
+  !text: tr('Food Eater')
+  size: 235 215
+  @onEscape: modules.food_eater.closing()
+
+  TabBar
+    id: allTabs
+    anchors.top: parent.top
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+
+  Panel
+    id: optionsTabContent
+    anchors.top: allTabs.top
+    anchors.left: allTabs.left
+    anchors.right: allTabs.right
+    anchors.bottom: allTabs.bottom
+    margin-top: 20
+    margin-bottom: 20
+
+  Button
+    id: Banana
+    !text: tr('Banana')
+    width: 200
+    anchors.left: parent.left
+    anchors.top: Melon.bottom
+    @onClick: modules.food_eater.banana()
+
+  Button
+    id: Melon
+    !text: tr('Melon')
+    width: 200
+    anchors.left: parent.left
+    anchors.top: Cake.bottom
+    @onClick: modules.food_eater.melon()
+
+  Button
+    id: Cake
+    !text: tr('Cake')
+    width: 200
+    anchors.left: parent.left
+    anchors.top: parent.top
+    @onClick: modules.food_eater.cake()
+
+  Item
+    id: itemWidget
+    size: 32 32
+    anchors.left: parent.left
+    anchors.top: Banana.bottom
+    margin: 10
+    virtual: true
+
+  Button
+    id: closeButton
+    !text: tr('Close')
+    width: 200
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    @onClick: modules.food_eater.closing()

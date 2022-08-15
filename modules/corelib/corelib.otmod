@@ -26,9 +26,9 @@ Module
 
     dofile 'inputmessage'
     dofile 'outputmessage'
+    dofile 'json'
     dofile 'orderedtable'
     
     dofile 'base64'
-    dofile 'json'
     dofile 'http'
     dofile 'test'
