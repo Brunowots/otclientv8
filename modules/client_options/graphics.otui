@@ -23,10 +23,6 @@ OptionPanel
     !text: tr('Show frame rate')
 
   OptionCheckBox
-    id: enableLights
-    !text: tr('Enable lights')
-
-  OptionCheckBox
     id: fullscreen
     !text: tr('Fullscreen')
     tooltip: Ctrl+Shift+F
@@ -75,19 +71,6 @@ OptionPanel
     margin-top: 3
     minimum: 10
     maximum: 201
-
-  Label
-    id: ambientLightLabel
-    margin-top: 6
-    @onSetup: |
-      local value = modules.client_options.getOption('ambientLight')
-      self:setText(tr('Ambient light: %s%%', value))
-
-  OptionScrollbar
-    id: ambientLight
-    margin-top: 3
-    minimum: 0
-    maximum: 100
   
   Label
     id: tips
