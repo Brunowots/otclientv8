@@ -463,7 +463,7 @@ function doKeyCombo(keyCombo, repeated)
     end
     hotKey.hotkeyDelayTo = g_clock.millis() + hotkeyDelay
   elseif hotKey.useType == HOTKEY_MANAGER_USE then
-    if g_game.getClientVersion() < 780 then
+    if g_game.getClientVersion() < 0 then
       local item = g_game.findPlayerItem(hotKey.itemId, hotKey.subType or -1)
       if item then
         g_game.use(item)
@@ -473,7 +473,7 @@ function doKeyCombo(keyCombo, repeated)
     end
     hotKey.hotkeyDelayTo = g_clock.millis() + hotkeyDelay
   elseif hotKey.useType == HOTKEY_MANAGER_USEONSELF then
-    if g_game.getClientVersion() < 780 then
+    if g_game.getClientVersion() < 0 then
       local item = g_game.findPlayerItem(hotKey.itemId, hotKey.subType or -1)
       if item then
         g_game.useWith(item, g_game.getLocalPlayer())
@@ -486,7 +486,7 @@ function doKeyCombo(keyCombo, repeated)
     local attackingCreature = g_game.getAttackingCreature()
     if not attackingCreature then
       local item = Item.create(hotKey.itemId)
-      if g_game.getClientVersion() < 780 then
+      if g_game.getClientVersion() < 0 then
         local tmpItem = g_game.findPlayerItem(hotKey.itemId, hotKey.subType or -1)
         if not tmpItem then return end
         item = tmpItem
@@ -497,7 +497,7 @@ function doKeyCombo(keyCombo, repeated)
     end
 
     if not attackingCreature:getTile() then return end
-    if g_game.getClientVersion() < 780 then
+    if g_game.getClientVersion() < 0 then
       local item = g_game.findPlayerItem(hotKey.itemId, hotKey.subType or -1)
       if item then
         g_game.useWith(item, attackingCreature, hotKey.subType or -1)
@@ -508,7 +508,7 @@ function doKeyCombo(keyCombo, repeated)
     hotKey.hotkeyDelayTo = g_clock.millis() + hotkeyDelay
   elseif hotKey.useType == HOTKEY_MANAGER_USEWITH then
     local item = Item.create(hotKey.itemId)
-    if g_game.getClientVersion() < 780 then
+    if g_game.getClientVersion() < 0 then
       local tmpItem = g_game.findPlayerItem(hotKey.itemId, hotKey.subType or -1)
       if not tmpItem then return true end
       item = tmpItem
