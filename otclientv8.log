@@ -24471,3 +24471,193 @@ Connecting to: 192.168.0.100:7171
 Login to 192.168.0.100:7172
 Exiting application..
 WARNING: widget 'widget1291' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Oct 31 2022 15:25:19
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.0.100:7171
+Login to 192.168.0.100:7172
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid missile id 41
+at:
+	[C++]: ?parseDistanceMissile@ProtocolGame@@AAEXABV?$shared_object_ptr@VInputMessage@@@stdext@@@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Oct 31 2022 15:31:40
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.0.100:7171
+Login to 192.168.0.100:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Oct 31 2022 15:32:04
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.0.100:7171
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+ERROR: failed to save OTMM minimap: rename: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces.: "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm.tmp", "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm"
+WARNING: attempt to destroy widget 'widget1291' two times
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+Login to 192.168.0.100:7172
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.0.100:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.0.100:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.0.100:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.0.100:7172
+Exiting application..
+Exiting application..
+Exiting application..
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 02 2022 23:04:26
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.0.100:7171
+Connecting to: 192.168.0.100:7171
+Connecting to: 192.168.0.100:7171
+Connecting to: 192.168.0.100:7171
+Connecting to: 192.168.0.100:7171
+Exiting application..
+WARNING: widget 'widget1291' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 02 2022 23:09:02
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 02 2022 23:17:34
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+Exiting application..
+WARNING: widget 'widget1291' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 02 2022 23:26:54
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Exiting application..
+Exiting application..
+WARNING: widget 'widget1291' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 03 2022 01:40:02
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 03 2022 01:41:24
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Exiting application..
+WARNING: widget 'widget1291' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 03 2022 01:51:47
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
