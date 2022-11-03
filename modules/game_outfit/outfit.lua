@@ -37,7 +37,7 @@ local ServerData = {
 local AppearanceData = {
   "preset",
   "outfit",
-  "mount",
+  -- "mount",
   "wings",
   "aura",
   "shader",
