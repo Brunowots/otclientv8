@@ -24880,3 +24880,305 @@ OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
 Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
 == application started at Nov 04 2022 02:03:44
 OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+WARNING: HTTP error for http://otclient.ovh/api/status.php: timeout
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 04 2022 02:51:24
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+ERROR: failed to save OTMM minimap: rename: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces.: "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm.tmp", "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm"
+WARNING: attempt to destroy widget 'widget1291' two times
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+ERROR: failed to save OTMM minimap: rename: Proces nie mo¿e uzyskaæ dostêpu do pliku, poniewa¿ jest on u¿ywany przez inny proces.: "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm.tmp", "C:\Users\Kamil\AppData\Roaming\OTClientV8\otclientv8\/minimap772.otmm"
+WARNING: attempt to destroy widget 'widget1291' two times
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+WARNING: HTTP error for http://otclient.ovh/api/status.php: timeout
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 04 2022 03:49:18
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Exiting application..
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+Exiting application..
+Exiting application..
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 05 2022 14:55:07
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+ERROR: invalid outfit looktype 267
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QAE?AVOutfit@@ABV?$shared_object_ptr@VInputMessage@@@stdext@@_N@Z
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 06 2022 16:44:18
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Connecting to: 192.168.56.1:7171
+Connecting to: 192.168.56.1:7171
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 06 2022 17:17:38
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Login to 192.168.56.1:7172
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+WARNING: attempt to destroy widget 'widget1291' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+WARNING: attempt to destroy widget 'widget1292' two times
+Login to 192.168.56.1:7172
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 06 2022 20:50:43
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Exiting application..
+WARNING: widget 'widget1292' was not explicitly destroyed
+Exiting application..
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 06 2022 22:23:16
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
+Connecting to: 192.168.56.1:7171
+Exiting application..
+WARNING: widget 'widget1292' was not explicitly destroyed
+GPU ANGLE (NVIDIA GeForce GTX 1660 Direct3D11 vs_5_0 ps_5_0) (Google Inc.)
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.0.54a3d7cbcadb)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'C:/Users/Kamil/Documents/OTSY/otclientv8-master/'
+== application started at Nov 06 2022 22:23:46
+OTCv8 3.1 rev 232 (dev) made by otclient.net built on Jul 11 2022 for arch x86
+Connecting to: 192.168.56.1:7171
