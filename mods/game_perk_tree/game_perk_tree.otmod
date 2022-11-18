@@ -1,6 +1,6 @@
 Module
-  name: food_eater
-  description: Food Eater
+  name: game_perk_tree
+  description: Game skill tree
   author: Otland for the Win
   website: -
   version: 1
@@ -9,6 +9,6 @@ Module
   autoload-priority: 1000
   sandboxed: true
   dependencies: [ game_interface ]
-  scripts: [ food_eater ]
+  scripts: [ game_perk_tree ]
   @onLoad: init()
   @onUnload: terminate()
