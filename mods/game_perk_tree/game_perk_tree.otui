@@ -22,37 +22,39 @@ MainWindow
     margin-bottom: 20
 
   Label
-    id: deffenceTree
+    id: healthTree
     anchors.left: parent.left
     anchors.top: parent.top
-    !text: tr('DEFFENCE PERKS') 
+    !text: tr('GUARDIAN PERKS') 
     width: 200
     height: 20
+    text-align: center
     anchors.left: parent.left
     anchors.top: parent.top
-    margin-left: 55
     margin-top: 15
 
   Label
-    id: AttackTree
+    id: ManaTree
     anchors.left: parent.left
     anchors.top: parent.top
-    !text: tr('ATTACK PERKS') 
+    !text: tr('INTELLIGENCE PERKS') 
     width: 200
     height: 20
-    anchors.left: deffenceTree.right
+    text-align: center
+    anchors.left: healthTree.right
     anchors.top: parent.top
     margin-left: 100
     margin-top: 15
 
   Label
-    id: UtilityTree
+    id: CapTree
     anchors.left: parent.left
     anchors.top: parent.top
     !text: tr('UTILITY PERKS') 
     width: 200
     height: 20
-    anchors.left: AttackTree.right
+    text-align: center
+    anchors.left: ManaTree.right
     anchors.top: parent.top
     margin-left: 100
     margin-top: 15
@@ -60,57 +62,115 @@ MainWindow
   Button
     id: HealthButton
     !text: tr('Health (+) 0/30')
-    width: 200
+    width: 145
     anchors.left: parent.left
-    anchors.top: deffenceTree.bottom
-    @onClick: modules.game_perk_tree.cake()
+    anchors.top: healthTree.bottom
+    @onClick: modules.game_perk_tree.HealthButton()
+
+  Button
+    id: HealthButtonFirstStageMax
+    !text: tr('+max')
+    margin-left: 5
+    width: 50
+    anchors.left: HealthButton.right
+    anchors.top: ManaTree.bottom
+    @onClick: modules.game_perk_tree.HealthButtonFirstStageMax()
 
   Button
     id: ManaButton
     !text: tr('Mana (+) 0/30')
-    width: 200
-    anchors.left: HealthButton.right
-    anchors.top: AttackTree.bottom
+    width: 145
+    anchors.left: HealthButtonFirstStageMax.right
+    anchors.top: ManaTree.bottom
     margin-left: 100
-    @onClick: modules.game_perk_tree.banana()
+    @onClick: modules.game_perk_tree.ManaButton()
+
+  Button
+    id: ManaButtonFirstStageMax
+    !text: tr('+max')
+    margin-left: 5
+    width: 50
+    anchors.left: ManaButton.right
+    anchors.top: ManaTree.bottom
+    @onClick: modules.game_perk_tree.ManaButtonFirstStageMax()
+
 
   Button
     id: CapButton
     !text: tr('Capacity (+) 0/30')
-    width: 200
-    anchors.left: ManaButton.right
-    anchors.top: UtilityTree.bottom
+    width: 145
+    anchors.left: ManaButtonFirstStageMax.right
+    anchors.top: CapTree.bottom
     margin-left: 100
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.CapButton()
+
+  Button
+    id: CapButtonFirstStageMax
+    !text: tr('+max')
+    margin-left: 5
+    width: 50
+    anchors.left: CapButton.right
+    anchors.top: ManaTree.bottom
+    @onClick: modules.game_perk_tree.CapButtonFirstStageMax()
 
   Button
     id: HealthButtonSecond
     !text: tr('Health (+) 0/60')
-    width: 200
+    width: 145
     anchors.left: parent.left
     anchors.top: firstDownArrow.bottom
     margin-top: 100
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.HealthButton()
+
+  Button
+    id: HealthButtonSecondStageMax
+    !text: tr('+max')
+    width: 50
+    margin-left: 5
+    anchors.left: HealthButtonSecond.right
+    anchors.top: firstDownArrow.bottom
+    margin-top: 100
+    @onClick: modules.game_perk_tree.HealthButtonSecondStageMax()
 
   Button
     id: ManaButtonSecond
     !text: tr('Mana (+) 0/60')
-    width: 200
-    anchors.left: HealthButtonSecond.right
+    width: 145
+    anchors.left: HealthButtonSecondStageMax.right
     anchors.top: secondDownArrow.bottom
     margin-left: 100
     margin-top: 100
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.ManaButton()
+
+  Button
+    id: ManaButtonSecondStageMax
+    !text: tr('+max')
+    width: 50
+    margin-left: 5
+    anchors.left: ManaButtonSecond.right
+    anchors.top: firstDownArrow.bottom
+    margin-top: 100
+    @onClick: modules.game_perk_tree.ManaButtonSecondStageMax()
 
   Button
     id: CapButtonSecond
     !text: tr('Capacity (+) 0/60')
-    width: 200
-    anchors.left: ManaButtonSecond.right
+    width: 145
+    anchors.left: ManaButtonSecondStageMax.right
     anchors.top: thirdDownArrow.bottom
     margin-left: 100
     margin-top: 100
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.CapButton()
+
+  Button
+    id: CapButtonSecondStageMax
+    !text: tr('+max')
+    width: 50
+    margin-left: 5
+    anchors.left: CapButtonSecond.right
+    anchors.top: firstDownArrow.bottom
+    margin-top: 100
+    @onClick: modules.game_perk_tree.CapButtonSecondStageMax()
 
   Label
     id: firstDownArrow
@@ -174,15 +234,13 @@ MainWindow
     margin-top: 15
     
   Button
-    id: healthColumnFirstStageFirstSorcPerk
-    !tooltip: 'Ultimate healing heals 20% more'
+    id: healthFirstStageFirstPerk
     width: 38
     height: 38
     anchors.top: firstDownArrow.bottom
     anchors.left: parent.left
     margin-left: 57
     margin-top: 50
-    image-source: /game_perk_tree/ui/ultimate_healing
     image-clip: 1 1 37 37
     $hover:
       image-clip: 1 1 37 37
@@ -191,11 +249,10 @@ MainWindow
     $disabled:
       image-color: #ffffff66
     visible: false
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.HealthFirstStageFirstPerk()
 
   Button
-    id: healthColumnFirstStageSecondSorcPerk
-    !tooltip: 'Ultimate healing cost 10 less mana'
+    id: healthFirstStageSecondPerk
     width: 38
     height: 38
     anchors.top: firstDownArrow.bottom
@@ -211,18 +268,53 @@ MainWindow
     $disabled:
       image-color: #ffffff66
     visible: false
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.HealthFirstStageSecondPerk()
 
   Button
-    id: manaColumnFirstStageFirstSorcPerk
-    !tooltip: 'Increase mana regen'
+    id: manaFirstStageFirstPerk
     width: 38
     height: 38
-    anchors.left: healthColumnFirstStageSecondSorcPerk.right
+    anchors.left: healthFirstStageSecondPerk.right
     anchors.top: secondDownArrow.bottom
     margin-left: 214
     margin-top: 50
-    image-source: /game_perk_tree/ui/mana_regen
+    image-clip: 0 0 38 38
+    image-border: 5
+    $hover:
+      image-clip: 0 0 38 38
+    $pressed:
+      image-clip: 0 0 38 38
+    $disabled:
+      image-color: #ffffff66
+    visible: false
+    @onClick: modules.game_perk_tree.ManaFirstStageFirstPerk()
+
+  Button
+    id: manaFirstStageSecondPerk
+    width: 38
+    height: 38
+    anchors.left: manaFirstStageFirstPerk.right
+    anchors.top: secondDownArrow.bottom
+    margin-left: 10
+    margin-top: 50
+    image-clip: 0 0 38 38
+    $hover:
+      image-clip: 0 0 38 38
+    $pressed:
+      image-clip: 0 0 38 38
+    $disabled:
+      image-color: #ffffff66
+    visible: false
+    @onClick: modules.game_perk_tree.ManaFirstStageSecondPerk()
+
+  Button
+    id: capFirstStageFirstPerk
+    width: 38
+    height: 38
+    anchors.left: manaFirstStageSecondPerk.right
+    anchors.top: thirdDownArrow.bottom
+    margin-left: 214
+    margin-top: 50
     image-clip: 0 0 38 38
     image-border: 5
     $hover:
@@ -234,54 +326,13 @@ MainWindow
     visible: false
 
   Button
-    id: manaColumnFirstStageSecondSorcPerk
-    !tooltip: 'Increase magic level +3'
+    id: capFirstStageSecondPerk
     width: 38
     height: 38
-    anchors.left: manaColumnFirstStageFirstSorcPerk.right
-    anchors.top: secondDownArrow.bottom
-    margin-left: 10
-    margin-top: 50
-    image-source: /game_perk_tree/ui/magic_level
-    image-clip: 0 0 38 38
-    $hover:
-      image-clip: 0 0 38 38
-    $pressed:
-      image-clip: 0 0 38 38
-    $disabled:
-      image-color: #ffffff66
-    visible: false
-
-  Button
-    id: capColumnFirstStageFirstSorcPerk
-    !tooltip: 'Increase movement speed +15'
-    width: 38
-    height: 38
-    anchors.left: manaColumnFirstStageSecondSorcPerk.right
-    anchors.top: thirdDownArrow.bottom
-    margin-left: 214
-    margin-top: 50
-    image-source: /game_perk_tree/ui/haste
-    image-clip: 0 0 38 38
-    image-border: 5
-    $hover:
-      image-clip: 0 0 38 38
-    $pressed:
-      image-clip: 0 0 38 38
-    $disabled:
-      image-color: #ffffff66
-    visible: false
-
-  Button
-    id: capColumnFirstStageSecondSorcPerk
-    !tooltip: 'Increase mana gains by mana fluid +5'
-    width: 38
-    height: 38
-    anchors.left: capColumnFirstStageFirstSorcPerk.right
+    anchors.left: capFirstStageFirstPerk.right
     anchors.top: thirdDownArrow.bottom
     margin-left: 10
     margin-top: 50
-    image-source: /game_perk_tree/ui/mana_potion
     image-clip: 0 0 38 38
     $hover:
       image-clip: 0 0 38 38
@@ -292,15 +343,13 @@ MainWindow
     visible: false
 
   Button
-    id: healthColumnSecondStageFirstSorcPerk
-    !tooltip: 'Increase ultimate healing rune healing by 20%'
+    id: healthSecondStageFirstPerk
     width: 38
     height: 38
     anchors.top: fourthDownArrow.bottom
     anchors.left: parent.left
     margin-left: 57
     margin-top: 50
-    image-source: /game_perk_tree/ui/ultimate_healing_rune
     image-clip: 1 1 37 37
     $hover:
       image-clip: 1 1 37 37
@@ -309,18 +358,16 @@ MainWindow
     $disabled:
       image-color: #ffffff66
     visible: false
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.HealthSecondStageFirstPerk()
 
   Button
-    id: healthColumnSecondStageSecondSorcPerk
-    !tooltip: '+50 hp'
+    id: healthSecondStageSecondPerk
     width: 38
     height: 38
     anchors.top: fourthDownArrow.bottom
     anchors.left: parent.left
     margin-left: 105
     margin-top: 50
-    image-source: /game_perk_tree/ui/health_icon
     image-clip: 1 1 37 37
     $hover:
       image-clip: 1 1 37 37
@@ -329,18 +376,53 @@ MainWindow
     $disabled:
       image-color: #ffffff66
     visible: false
-    @onClick: modules.game_perk_tree.melon()
+    @onClick: modules.game_perk_tree.HealthSecondStageSecondPerk()
 
   Button
-    id: manaColumnSecondStageFirstSorcPerk
-    !tooltip: 'Increase Energy Wave damage by 15%'
+    id: manaSecondStageFirstPerk
     width: 38
     height: 38
-    anchors.left: healthColumnSecondStageSecondSorcPerk.right
+    anchors.left: healthSecondStageSecondPerk.right
     anchors.top: fifthDownArrow.bottom
     margin-left: 214
     margin-top: 50
-    image-source: /game_perk_tree/ui/energy_wave
+    image-clip: 0 0 38 38
+    image-border: 5
+    $hover:
+      image-clip: 0 0 38 38
+    $pressed:
+      image-clip: 0 0 38 38
+    $disabled:
+      image-color: #ffffff66
+    visible: false
+    @onClick: modules.game_perk_tree.ManaSecondStageFirstPerk()
+
+  Button
+    id: manaSecondStageSecondPerk
+    width: 38
+    height: 38
+    anchors.left: manaSecondStageFirstPerk.right
+    anchors.top: fifthDownArrow.bottom
+    margin-left: 10
+    margin-top: 50
+    image-clip: 0 0 38 38
+    $hover:
+      image-clip: 0 0 38 38
+    $pressed:
+      image-clip: 0 0 38 38
+    $disabled:
+      image-color: #ffffff66
+    visible: false
+    @onClick: modules.game_perk_tree.ManaSecondStageSecondPerk()
+
+  Button
+    id: capSecondStageFirstPerk
+    width: 38
+    height: 38
+    anchors.left: manaSecondStageSecondPerk.right
+    anchors.top: sixthDownArrow.bottom
+    margin-left: 214
+    margin-top: 50
     image-clip: 0 0 38 38
     image-border: 5
     $hover:
@@ -352,54 +434,13 @@ MainWindow
     visible: false
 
   Button
-    id: manaColumnSecondStageSecondSorcPerk
-    !tooltip: 'Increase Great Energy Beam damage by 25%'
+    id: capSecondStageSecondPerk
     width: 38
     height: 38
-    anchors.left: manaColumnSecondStageFirstSorcPerk.right
-    anchors.top: fifthDownArrow.bottom
-    margin-left: 10
-    margin-top: 50
-    image-source: /game_perk_tree/ui/great_energy_beam
-    image-clip: 0 0 38 38
-    $hover:
-      image-clip: 0 0 38 38
-    $pressed:
-      image-clip: 0 0 38 38
-    $disabled:
-      image-color: #ffffff66
-    visible: false
-
-  Button
-    id: capColumnSecondStageFirstSorcPerk
-    !tooltip: '+4 magic levels'
-    width: 38
-    height: 38
-    anchors.left: manaColumnSecondStageSecondSorcPerk.right
-    anchors.top: sixthDownArrow.bottom
-    margin-left: 214
-    margin-top: 50
-    image-source: /game_perk_tree/ui/magic_level
-    image-clip: 0 0 38 38
-    image-border: 5
-    $hover:
-      image-clip: 0 0 38 38
-    $pressed:
-      image-clip: 0 0 38 38
-    $disabled:
-      image-color: #ffffff66
-    visible: false
-
-  Button
-    id: capColumnSecondStageSecondSorcPerk
-    !tooltip: 'Increase mana gains by mana fluid +5'
-    width: 38
-    height: 38
-    anchors.left: capColumnSecondStageFirstSorcPerk.right
+    anchors.left: capSecondStageFirstPerk.right
     anchors.top: sixthDownArrow.bottom
     margin-left: 10
     margin-top: 50
-    image-source: /game_perk_tree/ui/mana_potion
     image-clip: 0 0 38 38
     $hover:
       image-clip: 0 0 38 38

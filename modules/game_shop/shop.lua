@@ -1,5 +1,5 @@
 -- private variables
-local SHOP_EXTENTED_OPCODE = 201
+local SHOP_EXTENTED_OPCODE = 14
 
 shop = nil
 transferWindow = nil
@@ -36,6 +36,7 @@ end
 
 -- public functions
 function init()
+  print("TEST SHOPP")
   connect(g_game, {
     onGameStart = check, 
     onGameEnd = hide,
@@ -87,6 +88,7 @@ function terminate()
 end
 
 function check()
+  print("test shop")
   otcv8shop = false
   sendAction("init")
 end
